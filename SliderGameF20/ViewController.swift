@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     game.startNewGame()
     updateLabels()
+    setupCustomSlider()
   }
   
   // Outlets
@@ -57,6 +58,25 @@ class ViewController: UIViewController {
     game.calculateScore()
     game.startNewRound()
     slider.value = Float(game.currentValue)
+  }
+  
+  private func setupCustomSlider() {
+    let thumbImageNormal = UIImage(named: "SliderThumb-Normal")
+    slider.setThumbImage(thumbImageNormal, for: UIControl.State())
+
+    let thumbImageHighlighted = UIImage(named: "SliderThumb-Highlighted")
+    slider.setThumbImage(thumbImageHighlighted, for: .highlighted)
+
+    let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
+
+    if let trackLeftImage = UIImage(named: "SliderTrackLeft") {
+      let trackLeftResizable = trackLeftImage.resizableImage(withCapInsets: insets)
+      slider.setMinimumTrackImage(trackLeftResizable, for: UIControl.State())
+    }
+    if let trackRightImage = UIImage(named: "SliderTrackRight") {
+      let trackRightResizable = trackRightImage.resizableImage(withCapInsets: insets)
+      slider.setMaximumTrackImage(trackRightResizable, for: UIControl.State())
+    }
   }
 
 }
