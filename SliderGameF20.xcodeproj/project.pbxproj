@@ -14,6 +14,8 @@
 		E7AA7CF12506699F004A8F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7AA7CF02506699F004A8F93 /* Assets.xcassets */; };
 		E7AA7CF42506699F004A8F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7AA7CF22506699F004A8F93 /* LaunchScreen.storyboard */; };
 		E7AA7CFF2506699F004A8F93 /* SliderGameF20Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA7CFE2506699F004A8F93 /* SliderGameF20Tests.swift */; };
+		E7AA7D0A25066A4D004A8F93 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA7D0925066A4D004A8F93 /* Game.swift */; };
+		E7AA7D0C25066AB6004A8F93 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA7D0B25066AB6004A8F93 /* GameTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		E7AA7CFA2506699F004A8F93 /* SliderGameF20Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderGameF20Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7AA7CFE2506699F004A8F93 /* SliderGameF20Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderGameF20Tests.swift; sourceTree = "<group>"; };
 		E7AA7D002506699F004A8F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AA7D0925066A4D004A8F93 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E7AA7D0B25066AB6004A8F93 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				E7AA7CF02506699F004A8F93 /* Assets.xcassets */,
 				E7AA7CF22506699F004A8F93 /* LaunchScreen.storyboard */,
 				E7AA7CF52506699F004A8F93 /* Info.plist */,
+				E7AA7D0925066A4D004A8F93 /* Game.swift */,
 			);
 			path = SliderGameF20;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 			children = (
 				E7AA7CFE2506699F004A8F93 /* SliderGameF20Tests.swift */,
 				E7AA7D002506699F004A8F93 /* Info.plist */,
+				E7AA7D0B25066AB6004A8F93 /* GameTests.swift */,
 			);
 			path = SliderGameF20Tests;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 				E7AA7CEC2506699E004A8F93 /* ViewController.swift in Sources */,
 				E7AA7CE82506699E004A8F93 /* AppDelegate.swift in Sources */,
 				E7AA7CEA2506699E004A8F93 /* SceneDelegate.swift in Sources */,
+				E7AA7D0A25066A4D004A8F93 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7AA7CFF2506699F004A8F93 /* SliderGameF20Tests.swift in Sources */,
+				E7AA7D0C25066AB6004A8F93 /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

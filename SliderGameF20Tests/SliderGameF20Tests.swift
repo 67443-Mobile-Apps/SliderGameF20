@@ -1,10 +1,6 @@
-//
 //  SliderGameF20Tests.swift
 //  SliderGameF20Tests
-//
-//  Created by Larry Heimann on 9/7/20.
-//  Copyright © 2020 Larry Heimann. All rights reserved.
-//
+
 
 import XCTest
 @testable import SliderGameF20

@@ -1,10 +1,6 @@
-//
 //  SceneDelegate.swift
 //  SliderGameF20
-//
-//  Created by Larry Heimann on 9/7/20.
-//  Copyright © 2020 Larry Heimann. All rights reserved.
-//
+
 
 import UIKit
 
